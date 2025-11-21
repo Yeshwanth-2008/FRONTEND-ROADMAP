@@ -1,0 +1,66 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 500px;
+    width: 330px;
+    border: 1px solid black;
+    text-align: center;
+    /* padding-top: 100px; */
+
+}
+button{
+    height: 50px;
+    width: 250px;
+    border-radius: 125px;
+    background-color: black;
+    color: aliceblue;
+    
+}
+.paragraph{
+    line-height: 2;
+}
+
+    
+
+.design1{
+     height: 500px;
+    width: 330px;
+}
+
+.design{
+    height: 500px;
+    width: 330px;
+    background-color: rgb(206, 58, 83);
+    border: 1px solid rgb(255, 0, 106);
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    }
+.button2{
+    height: 50px;
+    width: 250px;
+    border-radius: 125px;
+    background-color: white;
+    color: rgb(229, 122, 140);
+    
+}
+.paragraph2{
+    line-height: 2;
+}
+.design2{
+    height: 500px;
+    width: 330px;
+    border: 1px solid black;
+    text-align: center;
+    color: black;
+    margin-top: 100px;
+}
+.button3{
+    height: 50px;
+    width: 250px;
+    border: 125px;
+
+}
+
+.paragraph3{
+    line-height: 2;
+}
