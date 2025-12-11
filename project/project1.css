@@ -1,11 +1,17 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
 
+.container1 {
+    margin: 0%;
+    height: 100vh;
+    background-color: navy;
+}
 
-.nav-container{
+
+.nav-container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -13,19 +19,120 @@
 }
 
 
-.nav-bar ul{
+.nav-bar ul {
     display: flex;
     gap: 30px;
     list-style-type: none;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-bar ul li:hover {
+
+    color: rgb(21, 2, 225);
+}
+
+.button1 {
+
+    height: 30px;
+    width: 200px;
+    background-color: rgb(22, 207, 210);
+    border-radius: 30px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+   
+}
+
+.image1 {
+
+    padding-left: 100px;
+    padding-top: 150px;
+}
+.container2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+.text1{
+    color: white;
+    
+  top: 300px;     
+  right: 400px;   
+  line-height: 40px;
+  font-size: larger;
+  
+}
+.para1 {
+    padding-top: 30px;
+    font-size: x-small;
+    line-height: 15px;
     
 }
-.button{
-    width: 250px;
-    height: 50px;
-    background-color: ;
+.btn3{
+    justify-content: center;
+ 
+}
+.container3{
+    background-color: white;
+    display: flex;
+    /* height: 100vh; */
+    padding-top: 200px;
+    padding-right: 100px;
+    padding-bottom: 150px;
+    justify-content: center;
+     line-height: 25px;
+     padding-left: 200px;
+     
 
-
-
-
+}
+.inner-container{
+    height: 600px;
+    width: 80%;
+    align-content: center;
+    justify-content: space-around;
+    background-color: #393088;
+    padding: 100px;
+    justify-content: center;
+    position: relative;
+}
+.head1{
+      text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: rgb(0, 208, 255); 
+  padding-bottom: 30px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.head2{
+    line-height: 30px;
+    padding-bottom: 30px;
+    color: WHITE;
+    font-size: x-large;
+}
+.para2{
+    line-height: 20px;
+    padding-bottom: 30px;
+    color: white;
+}
+.btn4{
+height: 50px;
+width: 150px;
+border-radius: 8px;
+background-color: #4CD1F4;
+}
+.btn4:hover{
+   background-color: #A0FDB3;
+   cursor: all-scroll;
+    
+}
+.img2{
+    display: flex;
+}
+.container4{
+    height: 100vh;
+    background-color: white;
 
 }
